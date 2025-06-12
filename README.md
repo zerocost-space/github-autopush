@@ -1,6 +1,6 @@
-# WP Git Auto-Push
+# GiHub Autopush Wordpress Plugin
 
-**WP Git Auto-Push** is a lightweight WordPress plugin that automatically commits and pushes the contents of a specified directory to a GitHub repository when a specific WordPress action hook is triggered **with a matching parameter value**.
+**GitHub Autopush** is a lightweight WordPress plugin that automatically commits and pushes the contents of a specified directory to a GitHub repository when a specific WordPress action hook is triggered **with a matching parameter value**.
 
 ## 🔧 Features
 
