@@ -24,26 +24,19 @@ Configure the plugin settings via the WordPress admin panel:
 
 | Setting | Description | Example |
 |--------|-------------|---------|
-| **GitHub Personal Access Token** | Token used to authenticate with GitHub. Must have `repo` access. | `ghp_*********************` |
-| **GitHub Repository** | Repository to push to, in the format `username/repository`. | `zerocost-space/Website` |
-| **Source Folder** | Absolute path to the folder whose contents will be pushed. | `/storage/Data/www/html/zerocost/public_static` |
+| **GitHub Personal Access Token** | Token used to authenticate with GitHub. | `Your api key` |
+| **GitHub Repository** | Repository to push to, in the format `username/repository`. | `zerocost-space/demosite` |
+| **Source Folder** | Absolute path to the folder whose contents will be pushed. | `/storage/Data/www/html/demosite/public_static` |
 | **Trigger Action Hook** | The WordPress action hook that triggers the push. | `ss_completed` |
-| **Trigger Action Parameter** | Name and expected value of the parameter that must match for the action to execute. | e.g. `status = success` |
+| **Trigger Action Parameter** | Name and expected value of the parameter that must match for the action to execute. | e.g. `success` |
 
 > ℹ️ The action will **only execute** if the specified parameter has the exact expected value when the hook is fired.
-
-## ⚙️ Example Workflow
-
-1. **Trigger**: `ss_completed` hook fires
-2. **Match**: Parameter `status` equals `success`
-3. **Action**: Plugin commits and pushes the static export folder to GitHub
-4. **Result**: Deployment is triggered (e.g. by GitHub Actions or Cloudflare Pages)
 
 ## 🛡️ Requirements
 
 - WordPress 5.0 or higher  
 - PHP 7.4 or higher  
-- GitHub personal access token with `repo` scope
+- GitHub personal access token
 
 ## 📝 License
 
