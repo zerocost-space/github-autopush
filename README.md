@@ -40,7 +40,7 @@ Configure the plugin settings via the WordPress admin panel:
 
 ## 📝 License
 
-This plugin is open source and licensed under the MIT License.
+This plugin is open source and licensed under the GPLv2 License.
 
 ---
 
