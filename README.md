@@ -12,7 +12,7 @@
 
 ## 🚀 Use Case
 
-A popular scenario is using this plugin with the free version of **Simply Static**, enabling automatic deployment of generated static files.
+A popular scenario is using this plugin with the free version of Simply Static, enabling automatic deployment of generated static files to Cloudflare Pages.
 
 One real-world example is covered in this tutorial:
 
