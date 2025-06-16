@@ -1,4 +1,4 @@
-# GitHub Autopush Wordpress Plugin
+# GitHub Autopush WordPress Plugin
 
 **GitHub Autopush** is a lightweight WordPress plugin that automatically commits and pushes the contents of a specified directory to a GitHub repository when a specific WordPress action hook is triggered **with a matching parameter value**.
 
@@ -12,7 +12,7 @@
 
 ## 🚀 Use Case
 
-A popular scenario is using this plugin with the free version of Simply Static, enabling automatic deployment of generated static files to Cloudflare Pages.
+A popular scenario is using this plugin with the free version of Simply Static, enabling automatic deployment of generated static files to Cloudflare Pages or GitHub Pages.
 
 One real-world example is covered in this tutorial:
 
